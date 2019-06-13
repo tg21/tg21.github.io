@@ -8,3 +8,4 @@ I made This website responsive without using any third-party libraries like boot
 - Make seperate Webpages for my projects.
 - Make it more responsive.
 - Test it on Mozilla, safari and Internet Explorer.(Currrently only tested on Chromium based browsers.)
+- Make LOGOs for my projects.
