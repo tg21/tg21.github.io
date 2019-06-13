@@ -74,6 +74,25 @@ function Delete() {
 
 // Start the typing effect on load
 _INTERVAL_VAL = setInterval(Type, 100);
+var image_list = [
+	"../img/s1.jpg",
+	"../img/s2.jpg",
+	"../img/s3.jpg",
+	"../img/s4.jpg",
+	"../img/s5.jpg"
+];
+var img_num = 4;
+document.getElementById("gravatar").onclick = function(){
+	document.body.style.background = "url("+image_list[img_num]+")";
+	if(img_num!=4){
+		img_num++;
+	}else{
+		img_num = 0;
+	};
+
+}
+
+
 }
 else if(page == "projects.html"){
 	console.log("this is ",page);
