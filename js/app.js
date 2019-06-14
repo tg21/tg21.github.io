@@ -83,7 +83,7 @@ var image_list = [
 ];
 var img_num = 4;
 document.getElementById("gravatar").onclick = function(){
-	document.body.style.background = "url("+image_list[img_num]+")";
+	document.body.style.backgroundImage = "url("+image_list[img_num]+")";
 	if(img_num!=4){
 		img_num++;
 	}else{
