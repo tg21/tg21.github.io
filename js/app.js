@@ -81,7 +81,7 @@ var image_list = [
 	"../img/s4.jpg",
 	"../img/s5.jpg"
 ];
-var img_num = 4;
+var img_num = 0;
 document.getElementById("gravatar").onclick = function(){
 	document.body.style.backgroundImage = "url("+image_list[img_num]+")";
 	if(img_num!=4){
