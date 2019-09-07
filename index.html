@@ -16,6 +16,7 @@
 
   <!-- Libraries CSS Files -->
   <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="css/mystyle.css" rel="stylesheet">
   <link href="lib/animate/animate.min.css" rel="stylesheet">
   <link href="lib/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="lib/owlcarousel/assets/owl.carousel.min.css" rel="stylesheet">
@@ -67,8 +68,73 @@
   </nav>
   <!--/ Nav End /-->
 
+  <!-- chat-box start -->
+  <div class="chat-box" style="max-width: 300px">
+    <button class="open-button btn btn-dark" id="open-chat-btn" onclick="openForm()">Chat</button>
+    <div class="card" id="myform">
+          <!-- <div class="card-header">
+              <ul class="nav nav-pills card-header-pills" style="list-style-type: none;">
+                  <li class="nav-item">
+                    <!-- <a class="nav-link active" href="#">Active</a> --
+                    Early Build
+                  </li>
+                  <li class="nav-item" style="float: right;margin-right: 0px">
+                      <button class="btn btn-danger" style="float: left;" onclick="closeForm()">
+                          x
+                      </button>
+                      <!-- <a class="nav-link active" href="#">Active</a> --
+                    </li>
+                </ul>
+              <!-- Early Build -->
+              <!-- <div style="text-align: end;">
+                <button class="btn btn-danger" style="text-align: end;" onclick="closeForm()">
+                    x
+                </button>
+            </div> --
+          </div> -->
+      <div class="card-body" style="float: right;">
+          <button class="btn btn-danger" style="float: left;" onclick="closeForm()">
+              x
+          </button>
+      </div><br><br>
+      
+      <div class="card-body">
+        <h5 class="card-title" style="text-align: center">
+          Chat with BATMAN
+        </h5>
+        <ul class="list-group chat-list">
+          <!-- <li class="list-group-item">nightwing</li>
+          <li class="list-group-item">nightwing</li>
+          <li class="list-group-item">nightwing</li> -->
+        </ul>
+        <div class="form-inline" style="max-width: 300px">
+          <input type="text" class="form-control" placeholder="ASK HERE ...">
+          <button class="btn btn-dark">GO</button>
+        </div>
+        <!-- <div class="container" style="text-align: center;margin-top:5px">
+          <button class="btn btn-danger" onclick="closeForm()">
+            close
+          </button>
+        </div> -->
+
+      </div>
+    </div>
+  </div>
+  <script>
+      function openForm() {
+        document.getElementById("myform").style.display = "block";
+        document.getElementById("open-chat-btn").style.display = "none";
+      }
+      
+      function closeForm() {
+        document.getElementById("myform").style.display = "none";
+        document.getElementById("open-chat-btn").style.display = "block";
+      }
+    </script>
+  <!-- chat-box end -->
+
   <!--/ Intro Skew Star /-->
-  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg.jpg)">
+  <div id="home" class="intro route bg-image" style="background-image: url(img/intro-bg-gimp.png)">
     <div class="overlay-itro"></div>
     <div class="intro-content display-table">
       <div class="table-cell">
