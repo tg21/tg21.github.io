@@ -102,15 +102,15 @@
         <h5 class="card-title" style="text-align: center">
           Chat with BATMAN
         </h5>
-        <ul class="list-group chat-list">
+        <ul class="list-group chat-list" id="messages">
           <!-- <li class="list-group-item">nightwing</li>
           <li class="list-group-item">nightwing</li>
           <li class="list-group-item">nightwing</li> -->
         </ul>
-        <div class="form-inline" style="max-width: 300px">
-          <input type="text" class="form-control" placeholder="ASK HERE ...">
+        <form class="form-inline" style="max-width: 300px" action="">
+          <input id="m" type="text" class="form-control" placeholder="ASK HERE ..." autocomplete="off">
           <button class="btn btn-dark">GO</button>
-        </div>
+        </form>
         <!-- <div class="container" style="text-align: center;margin-top:5px">
           <button class="btn btn-danger" onclick="closeForm()">
             close
@@ -120,17 +120,9 @@
       </div>
     </div>
   </div>
-  <script>
-      function openForm() {
-        document.getElementById("myform").style.display = "block";
-        document.getElementById("open-chat-btn").style.display = "none";
-      }
+  <!-- <script>
       
-      function closeForm() {
-        document.getElementById("myform").style.display = "none";
-        document.getElementById("open-chat-btn").style.display = "block";
-      }
-    </script>
+    </script> -->
   <!-- chat-box end -->
 
   <!--/ Intro Skew Star /-->
@@ -743,6 +735,9 @@
 
   <!-- Template Main Javascript File -->
   <script src="js/main.js"></script>
+  <script src="js/myscript.js"></script>
+  <script src="https://batchat.eu-gb.mybluemix.net/socket.io/socket.io.js"></script>
+  <!-- <script src="https://code.jquery.com/jquery-1.11.1.js"></script> -->
 
 </body>
 </html>

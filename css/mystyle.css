@@ -25,6 +25,13 @@
 .chat-list li{
     border: none;
 }
+.chat-item-s{
+  text-align: right;
+
+}
+.chat-item-r{
+  text-align: left;
+}
 .chat-list{
     height: 160px;
     /* max-height: 160px; */
